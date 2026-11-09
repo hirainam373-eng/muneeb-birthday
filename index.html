@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, Muneeb!</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Pacifico&family=Caveat:wght@500;600;700&display=swap');
+:root{--pink:#ff5b9d;--hot:#ff3e83;--gold:#ffd36a;--bg:#100713;--cream:#f6e8d8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% 30%,#35112f 0%,#160b1c 48%,#08060d 100%);color:#fff;font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden}
+button{font:inherit;border:0;cursor:pointer}.screen{min-height:100svh;display:none;align-items:center;justify-content:center;padding:28px 18px;position:relative;overflow:hidden}.screen.active{display:flex;animation:fade .8s ease both}@keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.wrap{width:min(100%,460px);text-align:center;position:relative;z-index:2}.script{font-family:'Caveat',cursive}.pink{color:#ff78ad}.muted{color:#c7afc4}
+#lock{background:#050408}.lockbox{width:min(100%,360px);padding:34px 25px;border:1px solid #59304c;border-radius:24px;background:linear-gradient(145deg,#211022,#100a17);box-shadow:0 0 55px #ff3e8320}
+.lockbox h1{font:34px 'Pacifico';color:#ff78ad;margin:0 0 10px}.lockbox p{color:#cbb8c9;line-height:1.6}.lockbox input{width:100%;padding:15px 16px;border-radius:12px;border:1px solid #80506c;background:#0d0811;color:white;text-align:center;letter-spacing:4px;font-size:18px;outline:none;margin:12px 0}.mainbtn{padding:13px 25px;border-radius:999px;background:linear-gradient(90deg,#ff4e91,#ff875f);color:white;font-weight:700;box-shadow:0 8px 25px #ff4e9140;transition:.2s}.mainbtn:hover{transform:translateY(-2px);filter:brightness(1.08)}.error{height:20px;color:#ff8eae;font-size:13px}
+.corner{position:absolute;width:0;height:0;border-top:24px solid #8e315a;border-left:24px solid transparent;right:18px;top:18px;opacity:.8}
+.gift{font-size:100px;display:block;filter:drop-shadow(0 12px 20px #0008);animation:bob 2s ease-in-out infinite}@keyframes bob{50%{transform:translateY(-12px) rotate(2deg)}}
+.bigtitle{font:clamp(34px,9vw,52px) 'Pacifico';line-height:1.2;color:#ff75ad;text-shadow:0 0 24px #ff3e8360;margin:12px 0}.sub{color:#d9c7d7;line-height:1.7}.hint{font-size:11px;letter-spacing:2px;color:#a88a9e;margin-top:28px}
+.cake{font-size:112px;line-height:1.3;position:relative;display:inline-block;cursor:pointer;filter:drop-shadow(0 12px 20px #0008)}.flame{position:absolute;top:2px;left:50%;transform:translateX(-50%);font-size:32px;animation:flicker .5s infinite alternate}@keyframes flicker{to{transform:translateX(-50%) scale(.8);opacity:.75}}
+#balloons{background:radial-gradient(ellipse,#32102b,#100713 70%)}.balloon{position:absolute;bottom:-130px;font-size:64px;animation:floatUp 8s linear infinite;opacity:.85}@keyframes floatUp{to{transform:translateY(-120vh) rotate(18deg);opacity:0}}
+.card{background:linear-gradient(145deg,#32152fdd,#170d20f2);border:1px solid #71345b;border-radius:22px;padding:24px 22px;box-shadow:0 12px 35px #0007,0 0 28px #ff4b9020;margin:14px 0;text-align:left}
+.card h3{margin:0 0 8px;color:#ffb3d0;font-size:17px}.card p{margin:0;color:#eadce8;line-height:1.55;font-size:14px}.reason{font-size:10px;letter-spacing:1.5px;color:#ff8bb8;margin-bottom:8px;font-weight:700}
+.progress{height:5px;background:#392039;border-radius:9px;overflow:hidden;margin:15px 0 20px}.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,#ff4e91,#ffc16b);transition:width .3s}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:12px}.polaroid{background:#eadfce;padding:9px 9px 28px;box-shadow:0 10px 22px #0008;transform:rotate(-4deg);transition:.3s}.polaroid:nth-child(even){transform:rotate(4deg);margin-top:25px}.polaroid:hover{transform:rotate(0) scale(1.04)}.polaroid img{width:100%;height:150px;object-fit:cover;background:#3a2936;display:block}.polaroid span{display:block;color:#4a3540;font:18px 'Caveat';padding-top:5px}
+.letter{background:#403a28;border:1px solid #a18b5d;border-radius:7px;padding:25px 22px;text-align:left;color:#f7e8d9;box-shadow:0 12px 35px #0008;position:relative}.letter:before{content:"";position:absolute;inset:10px;border:1px solid #8d7a53;pointer-events:none}.letter h2{font:28px 'Caveat';color:#ffd8e5;margin:0 0 12px}.letter p{font:21px/1.38 'Caveat';margin:8px 0;position:relative}.heart{position:fixed;pointer-events:none;z-index:5;animation:heart 3.5s linear forwards}@keyframes heart{from{transform:translateY(0) scale(.6);opacity:1}to{transform:translateY(-100vh) rotate(25deg) scale(1.5);opacity:0}}
+footer{font-size:10px;color:#927a91;margin-top:25px}
+@media(max-width:380px){.polaroid img{height:120px}.card{padding:20px 17px}}
+</style>
+</head>
+<body>
+<section class="screen active" id="lock">
+ <div class="lockbox">
+  <div style="font-size:42px">💌</div><h1>A little surprise</h1>
+  <p>Someone made something special for you.<br>Enter the secret password to open it ✨</p>
+  <input id="password" type="password" placeholder="Enter password" autocomplete="off">
+  <button class="mainbtn" id="unlock">Unlock my surprise ♡</button>
+  <div class="error" id="error"></div>
+ </div>
+</section>
+
+<section class="screen" id="welcome"><div class="wrap"><div class="corner"></div>
+ <span class="gift">🎁</span><p class="script pink" style="font-size:25px">A tiny gift, made with love</p>
+ <h1 class="bigtitle">It's officially<br>your day!</h1><p class="sub">And just like that, you're another year more wonderful ✨</p>
+ <button class="mainbtn" onclick="go('cake')">Open your surprise 💗</button>
+</div></section>
+
+<section class="screen" id="cake"><div class="wrap"><div class="corner"></div>
+ <p class="script pink" style="font-size:28px">First things first 🎂</p><div class="cake" id="cakeTap"><span class="flame" id="flame">🔥</span>🎂</div>
+ <h1 class="bigtitle" style="font-size:34px">Happy Birthday, Muneeb!</h1>
+ <p class="sub" id="cakeHint">Make a wish, then tap the candle to blow it out</p>
+ <button class="mainbtn" id="blow" onclick="blowCandle()">Blow the candle ✨</button>
+</div></section>
+
+<section class="screen" id="balloons"><div class="wrap"><p class="script pink" style="font-size:28px">Make a wish…</p><div style="font-size:100px">🎈</div>
+ <h1 class="bigtitle">Pop the balloons!</h1><p class="sub">Each balloon carries a little reason why you're loved.</p>
+ <button class="mainbtn" onclick="go('reasons')">Let's go 💕</button>
+</div></section>
+
+<section class="screen" id="reasons"><div class="wrap"><div class="corner"></div><p class="script pink" style="font-size:27px">A few things I adore about you</p>
+ <h1 class="bigtitle" style="font-size:35px">Reasons why you're special</h1>
+ <div class="progress"><span id="bar"></span></div><div id="reasonCard" class="card"></div>
+ <button class="mainbtn" id="nextReason" onclick="nextReason()">Keep going →</button>
+</div></section>
+
+<section class="screen" id="memories"><div class="wrap"><div class="corner"></div><p class="script pink" style="font-size:27px">Our little moments</p><h1 class="bigtitle" style="font-size:37px">Happiest birthday!</h1>
+ <p class="sub">A few memories that make me smile every time ✨</p>
+ <div class="photos">
+  <div class="polaroid"><img src="image1.jpg" alt="Memory 1"><span>My favourite moment ♡</span></div>
+  <div class="polaroid"><img src="image2.jpg" alt="Memory 2"><span>Always a good time ✨</span></div>
+  <div class="polaroid"><img src="image3.jpg" alt="Memory 3"><span>Little things, big memories</span></div>
+  <div class="polaroid"><img src="image4.jpg" alt="Memory 4"><span>Forever treasured 💗</span></div>
+ </div>
+ <button class="mainbtn" onclick="go('letter')">One last thing →</button>
+</div></section>
+
+<section class="screen" id="letter"><div class="wrap"><div class="letter">
+ <h2>Dear Muneeb,</h2>
+ <p>Happy Birthday to my favourite person! 🎂💗</p>
+ <p>I don't always know how to put into words how special you are to me. You make ordinary moments feel beautiful, and I'm grateful for every laugh, every memory, and every little thing.</p>
+ <p>I hope this year brings you endless happiness, love, success, and everything your heart wishes for. Never stop being the wonderful person you are. 🌸</p>
+ <p>Here's to many more birthdays, countless memories, and dreams coming true.</p>
+ <p>Happy Birthday once again! Love you always. 💞</p>
+ <p style="text-align:right;color:#ffc1d7">With love ♡</p>
+ </div><button class="mainbtn" style="margin-top:22px" onclick="celebrate()">Celebrate again 🎉</button><footer>Made with love, just for you.</footer>
+</div></section>
+
+<audio id="song" src="song.mp3" preload="auto" loop></audio>
+<script>
+const screens=[...document.querySelectorAll('.screen')];
+function go(id){screens.forEach(s=>s.classList.toggle('active',s.id===id));window.scrollTo(0,0);if(id==='balloons')startBalloons();if(id==='reasons')showReason();}
+function unlock(){const val=document.getElementById('password').value;if(val==='muneeb321'){document.getElementById('error').textContent='';const a=document.getElementById('song');a.volume=.75;a.play().catch(()=>{document.getElementById('error').textContent='Tap once more to start the music ♡';});go('welcome');hearts(12);}else{document.getElementById('error').textContent='That password is not right. Try again ♡';}}
+document.getElementById('unlock').addEventListener('click',unlock);
+document.getElementById('password').addEventListener('keydown',e=>{if(e.key==='Enter')unlock();});
+function blowCandle(){document.getElementById('flame').textContent='';document.getElementById('cakeHint').textContent='Wish made! May all your dreams come true 💗';document.getElementById('blow').textContent='Continue →';document.getElementById('blow').onclick=()=>go('balloons');hearts(20);}
+document.getElementById('cakeTap').addEventListener('click',blowCandle);
+function startBalloons(){for(let i=0;i<12;i++){const b=document.createElement('div');b.className='balloon';b.textContent=['🎈','💗','💜','💛'][i%4];b.style.left=(Math.random()*95)+'%';b.style.animationDelay=(Math.random()*7)+'s';b.style.animationDuration=(7+Math.random()*5)+'s';document.getElementById('balloons').appendChild(b);}}
+const reasons=[
+['REASON NO. 1 💗','Your smile can make even an ordinary day feel special.'],
+['REASON NO. 2 ✨','You have a way of making people around you feel comfortable and happy.'],
+['REASON NO. 3 🌷','You are thoughtful, caring, and someone I can always appreciate.'],
+['REASON NO. 4 💞','Every little memory with you becomes something worth keeping.'],
+['REASON NO. 5 🎂','Simply because you are YOU — and that is more than enough.']
+];let ri=0;
+function showReason(){const r=reasons[ri];document.getElementById('reasonCard').innerHTML='<div class="reason">'+r[0]+'</div><h3>You are one of a kind</h3><p>'+r[1]+'</p>';document.getElementById('bar').style.width=((ri+1)/reasons.length*100)+'%';document.getElementById('nextReason').textContent=ri===reasons.length-1?'Keep going →':'Next reason →';}
+function nextReason(){if(ri<reasons.length-1){ri++;showReason();}else{ri=0;go('memories');}}
+function hearts(n){for(let i=0;i<n;i++){setTimeout(()=>{const h=document.createElement('div');h.className='heart';h.textContent=['💗','💖','💕','❤️'][Math.floor(Math.random()*4)];h.style.left=Math.random()*100+'vw';h.style.bottom='-25px';h.style.fontSize=(16+Math.random()*25)+'px';document.body.appendChild(h);setTimeout(()=>h.remove(),3700);},i*110);}}
+function celebrate(){hearts(45);go('welcome');}
+</script>
+</body></html>
